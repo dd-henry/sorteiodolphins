@@ -8,34 +8,11 @@
             </head>
 
             <body>
-            <img src="miami.png">
             <div id="geral">
-            <center> <h1> Show do Bilhão </h1></center>
-            <center><div id="formulario">
-            <h2> Números Sorteados </h2>
-            <form action="index.html" method="post">
-            <input type="submit" value="SORTEAR" id="btn" name="sorteio">
-            </form>
-			
-            <?php
-
-            if(isset($_POST["sorteio"])){
-            ?>
-
-            <div id="notas">
-                
-                    <?php
-                    $numeros = array();
-                    for($cont = 0; $cont <=9; $cont += 1){
-                        echo "<div id='sorte'>" . $numeros[$cont] = rand(0,10) . "</div>";
-
-                    }
-                    ?>
-                </center>
-                </div>
-                <?php
-            }
-            ?>
+            <center>
+	 	<a href="https://e99d-45-184-143-19.sa.ngrok.io/sorteio/index.php">Texto a ser exibido</a>
+		    </center>
+            
                 </div>
             </body>
     </html>
